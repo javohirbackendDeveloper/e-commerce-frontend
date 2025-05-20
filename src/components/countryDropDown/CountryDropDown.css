@@ -1,0 +1,21 @@
+.countryDrop {
+  text-align: left;
+  justify-content: flex-start !important;
+}
+.countryDrop .info .label {
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 16px;
+}
+.countryDrop .info .name {
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  color: #233a95;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.dropIcon {
+  margin-left: auto;
+}
