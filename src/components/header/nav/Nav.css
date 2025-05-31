@@ -1,0 +1,101 @@
+/* Nav.css */
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 56px;
+}
+
+.navPart1 {
+  flex-shrink: 0;
+}
+
+.navPart2 {
+  flex-grow: 1;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  padding: 0 1rem;
+}
+
+.navPart2::-webkit-scrollbar {
+  display: none;
+}
+
+.allCatTab {
+  background-color: #6c3be0 !important;
+  color: #fff !important;
+  padding: 0.5rem 1.25rem !important;
+  border-radius: 20px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+  display: flex !important;
+  align-items: center !important;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.875rem !important;
+  height: 36px;
+}
+
+.allCatTab:hover {
+  background-color: #ad11e7 !important;
+}
+
+.categoryButtonIcons {
+  display: flex;
+  align-items: center;
+}
+
+.icon1 {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.icon2 {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.nav-list {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-list-item {
+  display: inline-flex;
+  margin-right: 0.75rem;
+}
+
+.nav-list-item:last-child {
+  margin-right: 0;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-family: "Rubik", sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.nav-list-item a:hover {
+  color: #1a0202;
+  border-radius: 30px;
+  background-color: #cfb3f5;
+}
+
+
+
+/* category modal started */
+

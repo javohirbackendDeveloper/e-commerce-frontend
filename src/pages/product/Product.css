@@ -1,0 +1,147 @@
+.product-page {
+  padding: 40px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.product-page .product-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #222;
+}
+
+.product-page .product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.product-page .product-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-page .product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-page .product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.product-page .product-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+  color: #111;
+}
+
+.product-page .product-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.product-page .product-card .badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 6px;
+  width: fit-content;
+}
+
+.product-page .product-card .active {
+  background-color: #28a745;
+}
+
+.product-page .product-card .inactive {
+  background-color: #dc3545;
+}
+
+.product-page .product-card .old-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.product-page .product-card .new-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d89ef;
+}
+
+.product-page .product-card .quantity {
+  font-size: 14px;
+  color: #666;
+}
+
+.product-page .product-card .comments-count {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.product-page .product-card .heart-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: #e74c3c;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.product-page .product-card .heart-icon:hover {
+  transform: scale(1.2);
+}
+
+.product-page .product-card button {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.product-page .product-card button:hover {
+  background-color: #1b61c1;
+}
+
+.product-page .load-more-btn {
+  margin: 30px auto 0;
+  display: block;
+  padding: 12px 24px;
+  background-color: #444;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.product-page .load-more-btn:hover {
+  background-color: #222;
+}

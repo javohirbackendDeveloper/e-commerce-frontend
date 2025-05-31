@@ -1,0 +1,153 @@
+/* AddCartModal.css */
+
+.modalContainer {
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.productTitle {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.brandInfo {
+  color: #666;
+  font-size: 14px;
+}
+
+.divider {
+  margin: 15px 0;
+  border-color: #eee;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.imageGallery {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+}
+
+.thumbnailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.thumbnailActive {
+  border: 2px solid #1976d2;
+}
+
+.mainImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.productInfo {
+  flex: 1;
+  max-width: 400px;
+}
+
+.priceContainer {
+  margin-bottom: 20px;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.currentPrice {
+  color: #d32f2f;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.statusActive {
+  color: green;
+  font-weight: bold;
+}
+
+.statusInactive {
+  color: gray;
+  font-weight: bold;
+}
+
+.statusLimited {
+  color: orange;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+  color: #555;
+}
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.quantityInput {
+  width: 60px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.stockInfo {
+  color: #666;
+  font-size: 14px;
+}
+
+.addToCartButton {
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.detailsLink {
+  display: flex;
+  align-items: center;
+  color: #1976d2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.detailsLinkIcon {
+  margin-left: 5px;
+}
