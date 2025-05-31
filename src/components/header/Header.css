@@ -13,12 +13,16 @@
   --transition: all 0.2s ease-in-out;
 }
 
+header {
+  min-height: 200px;
+  position: relative;
+  z-index: 100;
+}
+
 .header-wrapper {
-  position: sticky;
   top: 0;
   z-index: 50;
-  background: var(--bg-light);
-  box-shadow: var(--shadow);
+  border-bottom: 1px solid grey;
 }
 
 .alert-banner {
@@ -52,7 +56,7 @@
 }
 
 .logo-img {
-  height: 50px;
+  height: 70px;
   width: auto;
 }
 
@@ -151,4 +155,26 @@
   align-items: center;
   justify-content: center;
   border: 2px solid var(--bg-light);
+}
+
+.header-container .user-profile {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  background-color: #99e275;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #111827;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.header-container .user-profile:hover {
+  background-color: #11cb68;
+}
+
+.header-container .username {
+  padding: 0 8px;
 }
